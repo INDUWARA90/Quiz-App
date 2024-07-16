@@ -1,0 +1,98 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+margin-top: 100px;
+justify-content: center;    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 0px 0px 30px rgb(222, 165, 165);
+    width: 450px;
+    height: 450px;
+}
+
+.container-heading{
+    background-color: rgb(255, 255, 255);
+    height:20%;
+}
+
+.conatnier-time{
+    height: 50%;
+    /* background-color: bisque; */
+}
+
+.container-quection{
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.container-quection p{
+    font-size: small;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+
+.conatainer-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   height: 70%;
+
+}
+
+.container-bottom{
+    
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next{
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.PlayAgain{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.btn{
+    text-align: left;
+    height: 45px;
+    width: 90%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+
+}
+.btn:hover{
+    transition: all 0.3ms ease-in-out;
+    color: white;
+    background-color: grey;
+}
+.btn:active{
+    background-color:white;
+    color: black;
+}
