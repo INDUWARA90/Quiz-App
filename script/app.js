@@ -195,7 +195,7 @@ function ShowAnswers() {
         const ImageContainer=document.querySelector('.image-Score');
         
 
-        if (Socre>=5) {
+        if (Socre>=8) {
             ImageContainer.src='asset/Good.png';
         }else{
             ImageContainer.src='asset/Bad.png';

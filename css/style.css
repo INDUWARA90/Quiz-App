@@ -52,6 +52,7 @@ justify-content: center;
 .container-quection hr{
     width: 97%;
     margin-right: 30px;
+    color: #0b0c10;
 }
 
 
@@ -61,6 +62,7 @@ justify-content: center;
     justify-content: space-around;
     align-items: center;
     height: 60%;
+    margin-top: 10px;
 
 }
 
@@ -151,7 +153,7 @@ justify-content: center;
 
 .container-socre-page{
     display: flex;
-   padding: 30px;
+    padding: 30px;
     flex-direction: column;
     border: none;
     border-radius: 20px;
@@ -236,3 +238,65 @@ justify-content: center;
     background-color: rgb(242, 236, 236);
     box-shadow: 0 0 40px rgb(255, 240, 154);
 }
+
+/* Querrys */
+
+@media (max-width: 555.98px) {
+    .instructions,
+    .container{
+        width: 340px;
+        height: 480px;
+    }
+    .container-socre-page{
+        width: 300px;
+    }
+    .container-socre-page textarea{
+        width: 300px;
+    }
+
+}
+@media (max-width: 390px) {
+    .instructions{
+        width: 300px;
+        height: 540px;
+    }
+
+    .container{
+        width: 340px;
+    }
+    .container-socre-page{
+        width: 300px;
+    }
+    .container-socre-page textarea{
+        width: 300px;
+    }
+}
+
+@media (max-width: 290px) {
+    .instructions{
+        width: 180px;
+        height: 510px;
+    }
+    .instructions p{
+        font-size: small;
+    }
+    .container{
+        width: 240px;
+    }
+    .conatainer-buttons {
+        margin-top: 10px;
+    }
+
+    .container-socre-page{
+        width: 180px;
+        height: 480px;
+    }
+    .container-socre-page h1{
+     font-size: small;
+    }
+    .container-socre-page textarea{
+        width: 180px;
+    }
+}
+
+/* sssssssssssssssssss */
