@@ -250,6 +250,10 @@ justify-content: center;
     .container-socre-page{
         width: 300px;
     }
+    
+    .container-socre-page h1{
+        font-size: medium;
+    }
     .container-socre-page textarea{
         width: 300px;
     }
